@@ -1,6 +1,11 @@
-$(".flippable").click(function(){
-    $(this).toggleClass("flipme");
-  });
+$(document).ready(initializeApp)
+
+function initializeApp(){
+    $(".flippable").on('click',function(){
+        $(this).toggleClass("flipme");
+      });
+}
+
 
 const eggsAndOmlettes = {
     "Served with":"hashbrowns and one slice of toast, 2 upon request. white, wheat, rye, sourdough, english muffin",
