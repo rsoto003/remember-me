@@ -9,7 +9,6 @@
 
 .flip-container {
   perspective: 1000;
-  margin: 10px;
   float: left;
   cursor:pointer;
 }
@@ -47,7 +46,6 @@
 .back {
   transform: rotateY(180deg);
   font-size: 18px;
-  border:1px solid;
   font-family: Verdana;
   color: white;
 }
