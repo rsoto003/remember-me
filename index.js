@@ -1,3 +1,7 @@
+$(".flippable").click(function(){
+    $(this).toggleClass("flipme");
+  });
+
 const eggsAndOmlettes = {
     "Served with":"hashbrowns and one slice of toast, 2 upon request. white, wheat, rye, sourdough, english muffin",
     "1, 2, or 3 eggs": {
@@ -28,6 +32,3 @@ const scramblesAndBenedicts = {
     "country benedict": "spicy sausage, thick cut bacon, 2 poached eggs and country gravy on a toasted biscuit served with hashbrowns"
 }
 
-$(".flippable").click(function(){
-    $(this).toggleClass("flipme");
-  });
