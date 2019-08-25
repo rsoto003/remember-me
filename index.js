@@ -27,3 +27,7 @@ const scramblesAndBenedicts = {
     "eggs florentine benedict": "spinach, tomato, and smoked bacon served with hashbrowns", 
     "country benedict": "spicy sausage, thick cut bacon, 2 poached eggs and country gravy on a toasted biscuit served with hashbrowns"
 }
+
+$(".flippable").click(function(){
+    $(this).toggleClass("flipme");
+  });
