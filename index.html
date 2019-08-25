@@ -8,9 +8,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
     <title>Hello, world!</title>
   </head>
-  <body class="bg-dark">
+  <body class="bg-dark text-white">
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <a class="navbar-brand" href="#">Remember Me</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,10 +39,41 @@
           </ul>
         </div>
       </nav>
+      
+      <div class="row">
 
-      <div class="container-fluid">
-          
+          <div class="col-lg-3 col-md-3 col-sm-3 flip-container">
+              <div class="card m-3 bg-info flippable">
+                  <div class="card-body">
+                      <div class="card-body">
+                          <h5 class="card-title front">
+                            Meatlovers
+                          </h5>
+                          <p class="card-text back">
+                            Bacon, sausage, ham, and cheddar
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-3 col-sm-3 flip-container">
+            <div class="card m-3 bg-warning">
+                <div class="card-body">
+                    <div class="card-body flippable">
+                        <h5 class="card-title front">
+                            Denver
+                        </h5>
+                        <p class="card-text back">
+                            Ham, green pepper and onions
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
       </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
